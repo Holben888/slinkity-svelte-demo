@@ -8,17 +8,13 @@
     "build": "slinkity",
     "test": "echo \"Error: no test specified\" && exit 1",
     "reinstall:react": "cd ../slinkity/src/renderers/react && npm pack && cd - && npm i ../slinkity/src/renderers/react/slinkity-renderer-react-0.0.1.tgz",
-    "reinstall": "cd ../slinkity && npm pack && cd - && npm i ../slinkity/slinkity-0.3.3.tgz"
+    "reinstall": "cd ../slinkity && npm pack && cd - && npm i ../slinkity/slinkity-0.4.0.tgz"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0-beta.3",
-    "autoprefixer": "^10.4.0",
-    "eleventy-plugin-prismic": "^0.1.1",
-    "postcss": "^8.3.11",
-    "tailwindcss": "^2.2.17"
+    "@11ty/eleventy": "^1.0.0-beta.3"
   },
   "dependencies": {
     "@slinkity/renderer-react": "file:../slinkity/src/renderers/react/slinkity-renderer-react-0.0.1.tgz",
