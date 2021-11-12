@@ -12,6 +12,8 @@ Alcatra ball tip jerky chuck t-bone landjaeger chislic pancetta tenderloin pork 
 
 Pastrami cupim salami jerky ground round sirloin capicola chislic beef ribs ball tip short loin beef. Kielbasa tail meatloaf, salami chicken chuck tenderloin frankfurter sausage andouille strip steak spare ribs ham short ribs cupim. Swine burgdoggen beef ribs boudin fatback. Jerky sausage shankle, frankfurter tenderloin pig beef cupim ham drumstick tail leberkas tongue. Meatball brisket alcatra prosciutto. Pork belly capicola biltong, picanha sirloin shankle bacon short ribs burgdoggen. Bresaola pork chop chuck buffalo landjaeger meatloaf tri-tip ground round pancetta pork chicken alcatra filet mignon burgdoggen pastrami.
 
+{% svelte 'Images.svelte', render='lazy', images=beefyPhotos %}
+
 Bacon picanha ribeye meatball fatback. Salami pancetta alcatra sausage shoulder meatball chicken pork chop bresaola beef burgdoggen meatloaf ham boudin. Tenderloin cow alcatra, pancetta landjaeger rump boudin ham hock pork loin ground round. Buffalo picanha porchetta frankfurter prosciutto, strip steak sirloin pork chop.
 
 Pork loin t-bone ribeye, filet mignon pork ham hock bresaola leberkas bacon ground round turkey beef ribs chuck cow. Swine boudin pastrami short ribs. Pork belly meatloaf drumstick andouille burgdoggen. Sirloin tail burgdoggen cow kevin cupim corned beef ribeye jerky capicola pork chop turkey. Chuck tri-tip turducken, pork belly buffalo swine strip steak hamburger sausage porchetta beef corned beef meatball frankfurter. Frankfurter chislic short loin pork belly, drumstick pork chop short ribs ball tip.
