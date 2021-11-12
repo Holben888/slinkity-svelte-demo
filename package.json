@@ -1,0 +1,31 @@
+{
+  "name": "svelte-renderer-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "slinkity --serve --incremental",
+    "build": "slinkity",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reinstall:react": "cd ../slinkity/src/renderers/react && npm pack && cd - && npm i ../slinkity/src/renderers/react/slinkity-renderer-react-0.0.1.tgz",
+    "reinstall": "cd ../slinkity && npm pack && cd - && npm i ../slinkity/slinkity-0.3.3.tgz"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0-beta.3",
+    "autoprefixer": "^10.4.0",
+    "eleventy-plugin-prismic": "^0.1.1",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.17"
+  },
+  "dependencies": {
+    "@slinkity/renderer-react": "file:../slinkity/src/renderers/react/slinkity-renderer-react-0.0.1.tgz",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "slinkity": "github:slinkity/slinkity#feat/55/renderers",
+    "svelte": "^3.44.1"
+  }
+}
