@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Katibeh;
+  src: url('./assets/Katibeh/Katibeh-Regular.ttf');
+}
+
+html {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1 {
+  font-family: Katibeh;
+  font-size: 44px;
+  line-height: 1.1;
+}
+
+article {
+  max-width: 80ch;
+  margin: auto;
+}

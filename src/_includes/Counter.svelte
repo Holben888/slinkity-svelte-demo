@@ -8,3 +8,9 @@
 
 <button on:click={setCount}>It's Svelte!</button>
 <p>Sveltified count: {count}</p>
+
+<style>
+  button {
+    color: red;
+  }
+</style>
